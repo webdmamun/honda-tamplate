@@ -1,0 +1,65 @@
+/* honda custom css */
+.honda-header-bg{
+    background-color: #264653;
+}
+.honda-button-color{
+    background-color: #E76F51;
+    border-color:#E76F51;
+    color: #ffffff;
+}
+.honda-button-color:focus{
+    background:#E76F51;
+}
+.honda-button-color:hover {
+    color: #000;
+    background-color: #d4d4db;
+    border-color: #d4d4db;
+    transition: all 0.5s ease;
+}
+.honda-text-color{
+    color: #E76F51;
+}
+.honda-newslatter-bg {
+    background: url('./images/newslatter-bg.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    opacity: 0.5;
+  }
+
+
+/* Newsletter custom css */
+.bg-img{
+    padding:4%;
+    background:#7e8890;
+}
+
+  .form-subscribe
+  {
+    max-width:600px;
+    margin:0 auto
+  }
+  .form-subscribe .form-control
+  {
+    background-color:hsla(0,0%,100%,.8);
+    padding-left:24px;
+    padding-right:24px;
+    letter-spacing:1px;
+    border:none;
+    border-top-left-radius:36px;
+    border-bottom-left-radius:36px
+  }
+  .form-subscribe .form-control.focus,.form-subscribe .form-control:focus
+  {
+    z-index:2;
+    background-color:hsla(0,0%,100%,.8)
+  }
+  .form-subscribe .btn
+  {
+    border-top-right-radius:36px;
+    border-bottom-right-radius:36px;
+    background:#7ec855;
+    border-color:#7ec855;
+    height:46.5px;
+  }
